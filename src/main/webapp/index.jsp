@@ -1,8 +1,23 @@
 <html>
-<body>
-	<h1 style="color: black; font-size: 30px;" align="center"> Hello! AWS Tomcat Deployment by Morning 7AM batch</h1>
-	<h1 style="color: green; font-size: 50px;" align="center">Congratulations Java Home DevOps Team!</h1>
-	<h2 style="color: red;font-size: 30px" align="center">Your web application is successfully deployed</h2>
-	<h2 style="color: red;font-size: 20px" align="center">By Morning DevOPs Batch</h2>
+<head>
+<title>Sample Application JSP Page</title>
+</head>
+<body bgcolor=white>
+
+<table border="0">
+<tr>
+<td align=center>
+<img src="images/tomcat.gif">
+</td>
+<td>
+<h1>Sample Application JSP Page</h1>
+This is the output of a JSP page that is part of the Hello, World
+application.
+</td>
+</tr>
+</table>
+
+<%= new String("Hello!") %>
+
 </body>
 </html>
